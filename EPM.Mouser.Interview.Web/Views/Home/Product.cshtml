@@ -1,0 +1,35 @@
+﻿@model EPM.Mouser.Interview.Web.Models.ProductViewModel
+
+@{
+    ViewData["Title"] = "Product";
+}
+@{
+    var textColorClass = "";
+    var totalQuantity = Model.Product.InStockQuantity + Model.Product.ReservedQuantity;
+
+    switch (Model.Product.InStockQuantity)
+    {
+        case > 0 and < 10:
+            textColorClass = "text-warning";
+            break;
+        case 0:
+            textColorClass = "text-danger";
+            break;
+    }
+}
+
+<h1>@Model.Product.Name</h1>
+
+<h4>Total Stock:</h4>
+<h4>@totalQuantity</h4>
+<h4>Available Stock</h4>
+<h4 class=@textColorClass>@Model.Product.InStockQuantity</h4>
+
+<button class="btn btn-primary">Order</button>
+<button class="btn btn-primary">Ship</button>
+<button class="btn btn-primary">Restock</button>
+
+<div class="mt-2">
+@Html.ActionLink("Back", "Index")
+</div>
+

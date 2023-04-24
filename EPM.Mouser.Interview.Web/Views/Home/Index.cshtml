@@ -1,0 +1,57 @@
+﻿@model EPM.Mouser.Interview.Web.Models.IndexViewModel
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+
+<h1>In Stock items</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Total Stock</th>
+            <th scope="col">Available Stock</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in @Model.Products.OrderBy(x => x.Id))
+        {
+            var totalQuantity = item.InStockQuantity + item.ReservedQuantity;
+            var textColorClass = "";
+
+            switch (item.InStockQuantity)
+            {
+                case > 0 and < 10:
+                    textColorClass = "text-warning";
+                    break;
+                case 0:
+                    textColorClass = "text-danger";
+                    break;
+            }
+
+            <tr>
+                <td scope="row">
+                    <a href="@Url.Action("Product", "Home", new {id = item.Id})">@item.Id</a>
+                </td>
+                <td scope="row">@item.Name</td>
+                <td>@totalQuantity</td>
+                <td class=@textColorClass>@item.InStockQuantity</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@*
+    Display a table here which shows the products with any Available stock
+    - use the bootstrap table styling
+    - Available stock = Total Stock - Reserved Stock
+    - Columns shown:
+    - action => with a link to a placeholder product detail page.
+    - Name
+    - Total Amount in stock
+    - Available stock (this should be orange if < 10 and red < zero)
+
+*@
