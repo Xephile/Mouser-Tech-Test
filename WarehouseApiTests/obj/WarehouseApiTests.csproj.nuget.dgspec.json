@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\source\\EPM-Mouser-Assessment\\WarehouseApiTests\\WarehouseApiTests.csproj": {}
+    "C:\\source\\TechTest\\Mouser-Tech-Test\\WarehouseApiTests\\WarehouseApiTests.csproj": {}
   },
   "projects": {
-    "C:\\source\\EPM-Mouser-Assessment\\EPM.Mouser.Interview.Web\\EPM.Mouser.Interview.Web.csproj": {
+    "C:\\source\\TechTest\\Mouser-Tech-Test\\EPM.Mouser.Interview.Web\\EPM.Mouser.Interview.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\EPM-Mouser-Assessment\\EPM.Mouser.Interview.Web\\EPM.Mouser.Interview.Web.csproj",
+        "projectUniqueName": "C:\\source\\TechTest\\Mouser-Tech-Test\\EPM.Mouser.Interview.Web\\EPM.Mouser.Interview.Web.csproj",
         "projectName": "EPM.Mouser.Interview.Web",
-        "projectPath": "C:\\source\\EPM-Mouser-Assessment\\EPM.Mouser.Interview.Web\\EPM.Mouser.Interview.Web.csproj",
+        "projectPath": "C:\\source\\TechTest\\Mouser-Tech-Test\\EPM.Mouser.Interview.Web\\EPM.Mouser.Interview.Web.csproj",
         "packagesPath": "C:\\Users\\deanm\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\EPM-Mouser-Assessment\\EPM.Mouser.Interview.Web\\obj\\",
+        "outputPath": "C:\\source\\TechTest\\Mouser-Tech-Test\\EPM.Mouser.Interview.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\deanm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -67,14 +67,14 @@
         }
       }
     },
-    "C:\\source\\EPM-Mouser-Assessment\\WarehouseApiTests\\WarehouseApiTests.csproj": {
+    "C:\\source\\TechTest\\Mouser-Tech-Test\\WarehouseApiTests\\WarehouseApiTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\EPM-Mouser-Assessment\\WarehouseApiTests\\WarehouseApiTests.csproj",
+        "projectUniqueName": "C:\\source\\TechTest\\Mouser-Tech-Test\\WarehouseApiTests\\WarehouseApiTests.csproj",
         "projectName": "WarehouseApiTests",
-        "projectPath": "C:\\source\\EPM-Mouser-Assessment\\WarehouseApiTests\\WarehouseApiTests.csproj",
+        "projectPath": "C:\\source\\TechTest\\Mouser-Tech-Test\\WarehouseApiTests\\WarehouseApiTests.csproj",
         "packagesPath": "C:\\Users\\deanm\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\EPM-Mouser-Assessment\\WarehouseApiTests\\obj\\",
+        "outputPath": "C:\\source\\TechTest\\Mouser-Tech-Test\\WarehouseApiTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\deanm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -91,8 +91,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\source\\EPM-Mouser-Assessment\\EPM.Mouser.Interview.Web\\EPM.Mouser.Interview.Web.csproj": {
-                "projectPath": "C:\\source\\EPM-Mouser-Assessment\\EPM.Mouser.Interview.Web\\EPM.Mouser.Interview.Web.csproj"
+              "C:\\source\\TechTest\\Mouser-Tech-Test\\EPM.Mouser.Interview.Web\\EPM.Mouser.Interview.Web.csproj": {
+                "projectPath": "C:\\source\\TechTest\\Mouser-Tech-Test\\EPM.Mouser.Interview.Web\\EPM.Mouser.Interview.Web.csproj"
               }
             }
           }

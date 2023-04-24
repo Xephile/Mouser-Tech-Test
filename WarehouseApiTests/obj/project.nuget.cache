@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EtrgqjPyukz0YQFmLhJYJU63oq+Byl9oEM+vQHwEsLlkWoG578PsV9xXCjPaqhvpB4Z9jvEdgbdL+U8sP5W97g==",
+  "dgSpecHash": "TAXr35GEBwLpGAla+JBxKJFMwHae9LVx1bT8c5nwT77UlGhZ/RhzfYcqZcX4ALBiwegJCi3ytGgHkO8ajarZEQ==",
   "success": true,
-  "projectFilePath": "C:\\source\\EPM-Mouser-Assessment\\WarehouseApiTests\\WarehouseApiTests.csproj",
+  "projectFilePath": "C:\\source\\TechTest\\Mouser-Tech-Test\\WarehouseApiTests\\WarehouseApiTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\deanm\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\deanm\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
