@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hP+VGpikf6+ObtI0DpiA+N/tD98jg8Wn+mB6ElmHCcKumE2UsxU05xhUDi+AtefHlNP63ATls8GA+TO4dummCQ==",
+  "dgSpecHash": "sYVGZfMsc4gp0YuyDEKRlpQj67k2z70LXMz7l1KoxEY/n97WHlINbSy3DpQaZfltfgX5F12wL538DB0uBhkk+Q==",
   "success": true,
-  "projectFilePath": "C:\\source\\EPM-Mouser-Assessment\\EPM.Mouser.Interview.Web\\EPM.Mouser.Interview.Web.csproj",
+  "projectFilePath": "C:\\source\\TechTest\\Mouser-Tech-Test\\EPM.Mouser.Interview.Web\\EPM.Mouser.Interview.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\deanm\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\deanm\\.nuget\\packages\\moq\\4.18.4\\moq.4.18.4.nupkg.sha512",
