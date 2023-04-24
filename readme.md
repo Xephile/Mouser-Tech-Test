@@ -11,3 +11,6 @@ And then I would make the 'Product' object inherit 'AddProductRequest' and then 
 
 I also noticed when inserting, the 'Insert' method given doesn't use the Id passed in as the Id, instead it sets it as the count of all the products.
 If this was an actual DLL and not compiled I would fix it to use the Id given.
+
+
+I wanted to add some more functionality to the product page. I was going to link the buttons I had placed to their respective API methods but unfortunately I did not have time.
