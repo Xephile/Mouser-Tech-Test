@@ -7,7 +7,26 @@ If this was a bigger object with more redundant properties, I would maybe have m
                 "name": "product name"
             }
             
-And then I would make the 'Product' object inherit 'AddProductRequest' and then add the reserved quantity property so the other methods still have access to it.
+And then I would make the 'Product' object inherit 'AddProductRequest' and then add the reserved quantity property so the other methods still have access to it. E.G.
+```
+namespace EPM.Mouser.Interview.Web.Models
+{
+    public class AddProductRequest
+    {
+        public long Id { get; set; }
+
+        public string Name { get; set; }
+
+        public int InStockQuantity { get; set; }
+    }
+
+    public class Product : AddProductRequest
+    {
+        public int ReservedQuantity { get; set; }
+    }
+}
+```
+
 
 I also noticed when inserting, the 'Insert' method given doesn't use the Id passed in as the Id, instead it sets it as the count of all the products.
 If this was an actual DLL and not compiled I would fix it to use the Id given.
