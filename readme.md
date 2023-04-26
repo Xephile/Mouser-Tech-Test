@@ -1,4 +1,4 @@
-I noticed the request object for the takes a reserved quantity, but the reserved quantity is always hard coded to 0.
+I noticed the request object for the 'Product' object takes a reserved quantity, but the reserved quantity is always hard coded to 0.
 If this was a bigger object with more redundant properties, I would maybe have made a separate object called 'AddProductRequest' with just these properties:
 
             {
